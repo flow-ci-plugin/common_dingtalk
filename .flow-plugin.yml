@@ -14,9 +14,13 @@ public: true
 
 inputs:
   - name: FLOW_DINGTALK_MESSAGE_URL
+    desc_cn: "填写钉钉机器人的地址"
+    desc_en: "ding talk rebot url"
     editable: true
 
   - name: FLOW_DINGTALK_MESSAGE
+    desc_cn: "填写钉钉的具体消息, 消息可以使用环境变量替换具体的值"
+    desc_en: "dingtalk message, you can use bash variable to fill the message"
     editable: true
 
 outputs:
